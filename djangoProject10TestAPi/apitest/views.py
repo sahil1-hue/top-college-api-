@@ -21,7 +21,7 @@ def sp(request):
         info.append([result][0][i]['schoolInfo'])
 
 
-    print(info)
+    
 
     schoollist = zip(name,ranking,location, info)
 
